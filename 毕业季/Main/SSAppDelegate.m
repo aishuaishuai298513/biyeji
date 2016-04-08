@@ -6,17 +6,25 @@
 //  Copyright © 2016年 ass. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "SSAppDelegate.h"
+#import "UIWindow+Extension.h"
 
-@interface AppDelegate ()
+@interface SSAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation SSAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //创建窗口
+    self.window = [[UIWindow alloc]init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    // 2.设置根控制器
+    [self.window switchRootViewController];
+    
+    //显示窗口
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

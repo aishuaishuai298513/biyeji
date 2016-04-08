@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AF8AE9B1CB77554007DB36D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AE9A1CB77554007DB36D /* main.m */; };
-		0AF8AE9E1CB77554007DB36D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AE9D1CB77554007DB36D /* AppDelegate.m */; };
-		0AF8AEA11CB77554007DB36D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AEA01CB77554007DB36D /* ViewController.m */; };
 		0AF8AEA41CB77554007DB36D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8AEA21CB77554007DB36D /* Main.storyboard */; };
 		0AF8AEA61CB77554007DB36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8AEA51CB77554007DB36D /* Assets.xcassets */; };
 		0AF8AEA91CB77554007DB36D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8AEA71CB77554007DB36D /* LaunchScreen.storyboard */; };
 		0AF8AEB41CB77555007DB36D /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AEB31CB77555007DB36D /* ___Tests.m */; };
 		0AF8AEBF1CB77555007DB36D /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AEBE1CB77555007DB36D /* ___UITests.m */; };
+		0AF8AEF61CB788B8007DB36D /* BangBangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AEF41CB788B8007DB36D /* BangBangViewController.m */; };
+		0AF8AEF71CB788B8007DB36D /* BangBangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8AEF51CB788B8007DB36D /* BangBangViewController.xib */; };
+		0AF8AEFC1CB788D3007DB36D /* WoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AEFA1CB788D3007DB36D /* WoViewController.m */; };
+		0AF8AEFD1CB788D3007DB36D /* WoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8AEFB1CB788D3007DB36D /* WoViewController.xib */; };
+		0AF8AF021CB788DB007DB36D /* XiGuanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AF001CB788DB007DB36D /* XiGuanViewController.m */; };
+		0AF8AF031CB788DB007DB36D /* XiGuanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8AF011CB788DB007DB36D /* XiGuanViewController.xib */; };
+		0AF8AF081CB788E2007DB36D /* ZhaoPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AF061CB788E2007DB36D /* ZhaoPinViewController.m */; };
+		0AF8AF091CB788E2007DB36D /* ZhaoPinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF8AF071CB788E2007DB36D /* ZhaoPinViewController.xib */; };
+		0AF8AF141CB788EC007DB36D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AF0B1CB788EC007DB36D /* main.m */; };
+		0AF8AF151CB788EC007DB36D /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AF0D1CB788EC007DB36D /* SSAppDelegate.m */; };
+		0AF8AF161CB788EC007DB36D /* SSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AF0F1CB788EC007DB36D /* SSNavigationController.m */; };
+		0AF8AF171CB788EC007DB36D /* SSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AF111CB788EC007DB36D /* SSTabBarViewController.m */; };
+		0AF8AF181CB788EC007DB36D /* UIWindow+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8AF131CB788EC007DB36D /* UIWindow+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +46,6 @@
 
 /* Begin PBXFileReference section */
 		0AF8AE961CB77554007DB36D /* 毕业季.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "毕业季.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AF8AE9A1CB77554007DB36D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0AF8AE9C1CB77554007DB36D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0AF8AE9D1CB77554007DB36D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0AF8AE9F1CB77554007DB36D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0AF8AEA01CB77554007DB36D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0AF8AEA31CB77554007DB36D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AF8AEA51CB77554007DB36D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AF8AEA81CB77554007DB36D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,28 @@
 		0AF8AEBA1CB77555007DB36D /* 毕业季UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "毕业季UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF8AEBE1CB77555007DB36D /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		0AF8AEC01CB77555007DB36D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF8AEF11CB77F1F007DB36D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0AF8AEF31CB788B8007DB36D /* BangBangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BangBangViewController.h; sourceTree = "<group>"; };
+		0AF8AEF41CB788B8007DB36D /* BangBangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BangBangViewController.m; sourceTree = "<group>"; };
+		0AF8AEF51CB788B8007DB36D /* BangBangViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BangBangViewController.xib; sourceTree = "<group>"; };
+		0AF8AEF91CB788D3007DB36D /* WoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoViewController.h; sourceTree = "<group>"; };
+		0AF8AEFA1CB788D3007DB36D /* WoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoViewController.m; sourceTree = "<group>"; };
+		0AF8AEFB1CB788D3007DB36D /* WoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WoViewController.xib; sourceTree = "<group>"; };
+		0AF8AEFF1CB788DB007DB36D /* XiGuanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiGuanViewController.h; sourceTree = "<group>"; };
+		0AF8AF001CB788DB007DB36D /* XiGuanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiGuanViewController.m; sourceTree = "<group>"; };
+		0AF8AF011CB788DB007DB36D /* XiGuanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XiGuanViewController.xib; sourceTree = "<group>"; };
+		0AF8AF051CB788E2007DB36D /* ZhaoPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhaoPinViewController.h; sourceTree = "<group>"; };
+		0AF8AF061CB788E2007DB36D /* ZhaoPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhaoPinViewController.m; sourceTree = "<group>"; };
+		0AF8AF071CB788E2007DB36D /* ZhaoPinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZhaoPinViewController.xib; sourceTree = "<group>"; };
+		0AF8AF0B1CB788EC007DB36D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AF8AF0C1CB788EC007DB36D /* SSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		0AF8AF0D1CB788EC007DB36D /* SSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		0AF8AF0E1CB788EC007DB36D /* SSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNavigationController.h; sourceTree = "<group>"; };
+		0AF8AF0F1CB788EC007DB36D /* SSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNavigationController.m; sourceTree = "<group>"; };
+		0AF8AF101CB788EC007DB36D /* SSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTabBarViewController.h; sourceTree = "<group>"; };
+		0AF8AF111CB788EC007DB36D /* SSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTabBarViewController.m; sourceTree = "<group>"; };
+		0AF8AF121CB788EC007DB36D /* UIWindow+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Extension.h"; sourceTree = "<group>"; };
+		0AF8AF131CB788EC007DB36D /* UIWindow+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +128,11 @@
 		0AF8AE981CB77554007DB36D /* 毕业季 */ = {
 			isa = PBXGroup;
 			children = (
-				0AF8AE9C1CB77554007DB36D /* AppDelegate.h */,
-				0AF8AE9D1CB77554007DB36D /* AppDelegate.m */,
-				0AF8AE9F1CB77554007DB36D /* ViewController.h */,
-				0AF8AEA01CB77554007DB36D /* ViewController.m */,
+				0AF8AF0A1CB788EC007DB36D /* Main */,
+				0AF8AF041CB788E2007DB36D /* 招聘 */,
+				0AF8AEFE1CB788DB007DB36D /* 习惯 */,
+				0AF8AEF81CB788D3007DB36D /* 我的 */,
+				0AF8AEF21CB788B8007DB36D /* 帮帮 */,
 				0AF8AEA21CB77554007DB36D /* Main.storyboard */,
 				0AF8AEA51CB77554007DB36D /* Assets.xcassets */,
 				0AF8AEA71CB77554007DB36D /* LaunchScreen.storyboard */,
@@ -117,7 +145,7 @@
 		0AF8AE991CB77554007DB36D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0AF8AE9A1CB77554007DB36D /* main.m */,
+				0AF8AEF11CB77F1F007DB36D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +166,62 @@
 				0AF8AEC01CB77555007DB36D /* Info.plist */,
 			);
 			path = "毕业季UITests";
+			sourceTree = "<group>";
+		};
+		0AF8AEF21CB788B8007DB36D /* 帮帮 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8AEF31CB788B8007DB36D /* BangBangViewController.h */,
+				0AF8AEF41CB788B8007DB36D /* BangBangViewController.m */,
+				0AF8AEF51CB788B8007DB36D /* BangBangViewController.xib */,
+			);
+			path = "帮帮";
+			sourceTree = "<group>";
+		};
+		0AF8AEF81CB788D3007DB36D /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8AEF91CB788D3007DB36D /* WoViewController.h */,
+				0AF8AEFA1CB788D3007DB36D /* WoViewController.m */,
+				0AF8AEFB1CB788D3007DB36D /* WoViewController.xib */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		0AF8AEFE1CB788DB007DB36D /* 习惯 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8AEFF1CB788DB007DB36D /* XiGuanViewController.h */,
+				0AF8AF001CB788DB007DB36D /* XiGuanViewController.m */,
+				0AF8AF011CB788DB007DB36D /* XiGuanViewController.xib */,
+			);
+			path = "习惯";
+			sourceTree = "<group>";
+		};
+		0AF8AF041CB788E2007DB36D /* 招聘 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8AF051CB788E2007DB36D /* ZhaoPinViewController.h */,
+				0AF8AF061CB788E2007DB36D /* ZhaoPinViewController.m */,
+				0AF8AF071CB788E2007DB36D /* ZhaoPinViewController.xib */,
+			);
+			path = "招聘";
+			sourceTree = "<group>";
+		};
+		0AF8AF0A1CB788EC007DB36D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8AF0B1CB788EC007DB36D /* main.m */,
+				0AF8AF0C1CB788EC007DB36D /* SSAppDelegate.h */,
+				0AF8AF0D1CB788EC007DB36D /* SSAppDelegate.m */,
+				0AF8AF0E1CB788EC007DB36D /* SSNavigationController.h */,
+				0AF8AF0F1CB788EC007DB36D /* SSNavigationController.m */,
+				0AF8AF101CB788EC007DB36D /* SSTabBarViewController.h */,
+				0AF8AF111CB788EC007DB36D /* SSTabBarViewController.m */,
+				0AF8AF121CB788EC007DB36D /* UIWindow+Extension.h */,
+				0AF8AF131CB788EC007DB36D /* UIWindow+Extension.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +327,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF8AEFD1CB788D3007DB36D /* WoViewController.xib in Resources */,
+				0AF8AF091CB788E2007DB36D /* ZhaoPinViewController.xib in Resources */,
 				0AF8AEA91CB77554007DB36D /* LaunchScreen.storyboard in Resources */,
 				0AF8AEA61CB77554007DB36D /* Assets.xcassets in Resources */,
+				0AF8AEF71CB788B8007DB36D /* BangBangViewController.xib in Resources */,
+				0AF8AF031CB788DB007DB36D /* XiGuanViewController.xib in Resources */,
 				0AF8AEA41CB77554007DB36D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +358,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF8AEA11CB77554007DB36D /* ViewController.m in Sources */,
-				0AF8AE9E1CB77554007DB36D /* AppDelegate.m in Sources */,
-				0AF8AE9B1CB77554007DB36D /* main.m in Sources */,
+				0AF8AF161CB788EC007DB36D /* SSNavigationController.m in Sources */,
+				0AF8AF141CB788EC007DB36D /* main.m in Sources */,
+				0AF8AEFC1CB788D3007DB36D /* WoViewController.m in Sources */,
+				0AF8AEF61CB788B8007DB36D /* BangBangViewController.m in Sources */,
+				0AF8AF181CB788EC007DB36D /* UIWindow+Extension.m in Sources */,
+				0AF8AF171CB788EC007DB36D /* SSTabBarViewController.m in Sources */,
+				0AF8AF081CB788E2007DB36D /* ZhaoPinViewController.m in Sources */,
+				0AF8AF151CB788EC007DB36D /* SSAppDelegate.m in Sources */,
+				0AF8AF021CB788DB007DB36D /* XiGuanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +507,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/ass/Desktop/毕业季/毕业季/PrefixHeader.pch";
 				INFOPLIST_FILE = "毕业季/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "qttd.---";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ss.biyeji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +519,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/ass/Desktop/毕业季/毕业季/PrefixHeader.pch";
 				INFOPLIST_FILE = "毕业季/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "qttd.---";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ss.biyeji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +594,7 @@
 				0AF8AEC51CB77555007DB36D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AF8AEC61CB77555007DB36D /* Build configuration list for PBXNativeTarget "毕业季Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +603,7 @@
 				0AF8AEC81CB77555007DB36D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AF8AEC91CB77555007DB36D /* Build configuration list for PBXNativeTarget "毕业季UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +612,7 @@
 				0AF8AECB1CB77555007DB36D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
